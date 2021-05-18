@@ -1,24 +1,25 @@
-# Representing multiples of M in real quadratic fields as sums of squares
+# Representing multiples of _M_ in real quadratic fields as sums of squares
 
 ## General Information
 - This project contains the code in C++ for computational parts of my number theory article.
 - The article can be found at [_arXiv_](https://www.example.com).
-- In a nutshell, for positive integer _m_ and quadratic field _Q(sqrt(D))_ and its ring of integers, we are interested if all _m_-multiples of totally positive integers can be represented as sums of squares.
-- Outputs of these algorithms, created graphs as well as interactive web browser graphs can be found at <http://www.example.com>.
+- In a nutshell, for positive integer _m_, quadratic field _Q(sqrt(D))_ and its ring of integers, we are interested if all _m_-multiples of totally positive integers can be represented as sums of squares.
+- Outputs of these algorithms, created graphs, as well as interactive web browser graphs can be found at <http://www.example.com>.
 
 ## Setup
 The project uses [NTL library](https://libntl.org/) for fast computations with unlimited integers (for installation and usage see the linked documentation).
 
 The functions can be included from header file _sum\_of\_squares.hpp_, the implementation is in _sum\_of\_squares.cpp_. Functions are wrapped in namespace _SumOfSquares_.
 
-The code was written in C++14 but does not intentionally use any special feature of this version,
+The code was written in C++14 but does not intentionally use any special features of this version,
  so it should work in any other version suitable for NTL.
 
 
 ## Usage
-One very basic example use of is written below (more informational example on how to include and run written code). 
+One very basic example of use is written below (it is informational example on how to include and run written code). 
 
-For more complex examples as well as for the description of intend use, see [documentation](documentation.md).
+
+For more complex examples as well as for the description of intended use, see [documentation](documentation.md).
 
 ```cpp
 #include "sum_of_squares.hpp" //imports project functions
