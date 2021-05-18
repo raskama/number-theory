@@ -8,6 +8,7 @@ The goal is focused on determining whether for given _m_ and _D_ all _m_-multipl
  - For finding all such _D_ for a single fixed _m_ use _all_D_for_fixed_m_. 
  - If one wants to compute this for multiple _m_ in a given interval, the fastest is _solve_mod1_ and _solve_mod23_ (the cases D \equiv 1 (mod 4) and D \equiv 23 (mod 4) are handled separately). Unline reruning the previous function for multiple _m_, this does not recompute indecomposable elements for each D multiple times.
 
+Throughout the work, _m_ is assumed to be a positive integer and _D_ is assumed to be a squarefree integer greater than 1. Most of the functions are not written to be foolproof, so wherever user input is used, these two conditions should be met.
 
 ## Example
 The following code computes the task for all m <= 500, D \equiv 1 (mod 4) and saves the results in `results_500_mod1.json` in JSON format.
@@ -139,7 +140,7 @@ Unique indecomposable elements for D = 6:
 long test_peters_mod1(const NTL::ZZ& D, const NTL::ZZ& m, const NTL::ZZ& x, const NTL::ZZ& y)
 ```
 
-For D \equiv 1 (mod 4) tests if element m*(x+y(1+\sqrt{D})/2) is sum of squares using Peters theorem
+For D \equiv 1 (mod 4) tests if totally positive element m*(x+y(1+\sqrt{D})/2) is sum of squares using Peters theorem.
 Returns 1 if true, 0 otherwise.
 
 ##### Parameters:
