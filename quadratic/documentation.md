@@ -1,7 +1,7 @@
 # Sum of squares -- Documentation
 <a name="line-4"></a>
 ## Description
-For general information about the project see [README](readme.md). Used algorithms are described in referenced article.
+For general information about the project see [README](README.md). Used algorithms are described in referenced article.
 The goal is focused on determining whether for given _m_ and _D_ all _m_-multiples of all totally positive integers in _Q(sqrt(D)_ can be represented as the sum of squares.
 
 - For determining this for single pair _(m,D)_, the function _all_elements_sum_of_squares_ is suitable.
