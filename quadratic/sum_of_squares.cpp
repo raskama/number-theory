@@ -236,7 +236,7 @@ namespace SumOfSquares
 	      }
 
 	      for(int i=0;i<3;i++){
-               lbound[i] = min(lbound[i],min_m);
+               lbound[i] = max(lbound[i],min_m);
 		   lbound[i]+=lbound[i] % 2;
 		   for(int m = lbound[i]; m <=rbound[i]; m+=2){
 		      ok = 1;
@@ -284,7 +284,7 @@ namespace SumOfSquares
 	   }
 	   
 	   for(int i=0;i<3;i++){
-            lbound[i]+= min(lbound[i],min_m);
+            lbound[i] = max(lbound[i],min_m);
 	      lbound[i]+= 1 - (lbound[i] %2);
 	      for(int m = lbound[i]; m <=rbound[i]; m+=2){
 		 ok = 1;
