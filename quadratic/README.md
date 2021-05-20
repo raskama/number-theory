@@ -43,7 +43,7 @@ To run the code in UNIX terminal one could use the following commands (given the
 % g++ -g -O2 -pthread -march=native sum_of_squares.cpp example.cpp -o example -lntl -lgmp -lm
 % ./example
 ```
-Most of the parameters are needed for fast usage of NTL library (for further configuration on specific machine see [here](https://libntl.org/doc/tour-unix.html).
+Most of the parameters are needed for fast usage of NTL library (for further configuration on specific machine see [here](https://libntl.org/doc/tour-unix.html)).
 
 The necessary inclusion of _sum\_of\_squares.cpp_ among compiled files should be apparent.
 
