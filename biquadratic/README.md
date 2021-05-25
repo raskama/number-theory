@@ -3,7 +3,7 @@
 
 **The main parts of the code (which won't be changed much) are here and should be at this point fairly readable for anyone skilled in Python.**
 
-**At the very latest by May 25 new version of documentation, unit tests, refurbished commented code and overall better description of usage will appear.**
+**At the very latest by May 28 new version of documentation, unit tests, refurbished commented code and overall better description of usage will appear.**
 
 ## General Information
 - This project contains the code in Python for computational parts of number theory article with the same name as the title by Jakub Krásenský, Martin Raška and Ester Sgallová.
