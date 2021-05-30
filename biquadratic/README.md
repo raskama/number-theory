@@ -23,7 +23,7 @@ For installation of the package then go the the main folder and run `python3 set
 ## Usage
 One basic example of use it the following (can be found in _example_predict_pythagoras.py_). It finds all elements in field _Q(sqrt(_p_), sqrt(_q_))_ up to a given trace _max_trace_, which are sums of squares and computes their lengths.
 
-It can be called from command line using `python3 predict_pythagoras.py p q max_trace`.
+It can be called from command line using `python3 example_predict_pythagoras.py p q max_trace`.
 For more complex examples as well as for the description of intended use, see [documentation](documentation.md).
 
 ```python
