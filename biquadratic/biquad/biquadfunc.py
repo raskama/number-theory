@@ -141,7 +141,7 @@ class BiquadField(ABC):
    #Chooses correct type of field and returns instance of that type.
    @staticmethod
    def createField(p,q):
-      if not isSquareFree(p) or not isSquareFree(p):
+      if not isSquareFree(p) or not isSquareFree(q):
          return None
       r = p*q // (gcd(p,q)*gcd(p,q))
       t = [p,q,r]
