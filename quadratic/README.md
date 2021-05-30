@@ -2,7 +2,7 @@
 
 ## General Information
 - This project contains the code in C++ for computational parts of my number theory article.
-- The article can be found at [_arXiv_](https://www.example.com).
+- The article can be found at [_arXiv_](https://arxiv.org/abs/2105.11423).
 - In a nutshell, for positive integer _m_, quadratic field _Q(sqrt(D))_ and its ring of integers, we are interested if all _m_-multiples of totally positive integers can be represented as sums of squares.
 - Outputs of these algorithms, created graphs, as well as interactive web browser graphs can be found at <https://www2.karlin.mff.cuni.cz/~raskam/research/quad/>.
 
