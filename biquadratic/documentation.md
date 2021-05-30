@@ -177,7 +177,7 @@ Computes `sums_of_k_squares_by_trace` for all _k_ between `min_k` and `max_k`, p
 find_culprits_by_trace(trace,k, known_roots = {}):
 ```
 Finds elements with trace `trace` which are sums of `k` squares but are not sums of `k-1` squares. 
-Returns them in the list of lists with computed decompositions into the sums of squares.
+Returns them in the list of lists with computed decompositions into the sums of squares (does not return the squares, but their square roots).
 
 ##### Parameters
 - `k,trace` -- positive int
