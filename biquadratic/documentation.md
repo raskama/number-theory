@@ -45,7 +45,7 @@ E.g. when we talk about sum of _k_ squares, we mean _k > 0_. Therefore, e.g. if 
 createField(p,q)
 ```
 Chooses the correct derived class of biquadratic field (depending on the congruence classes of _p,q_) and returns created instance of this field.
-Tries to assign values _p,q_ to the corresponding attributes _p,q_ in the biquadratic field if possible but is sometimes forced to change the order due to the integral basis, e.g. _createField(3,7)_ will return _BiquadFieldI(3,21)_.
+Tries to assign values _p,q_ to the corresponding attributes _p,q_ in the biquadratic field if possible but is sometimes forced to change the order due to the integral basis, e.g. _createField(3,7)_ will return _BiquadFieldII_III(3,21)_.
 
 If _p,q_ are not squarefree returns `None`.
 ##### Parameters
